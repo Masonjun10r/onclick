@@ -1,0 +1,565 @@
+/* start: global styles */
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Arial" "Sans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+}
+
+* {
+    outline: none;
+}
+
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.4s;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+/* end: global styles */
+
+/* start: header styles */
+#header-hero-container {
+    min-height: 600px;
+    height: calc(100vh);
+    position: relative;
+}
+
+header {
+    background: transparent;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+
+#logo {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Arial" "Sans-serif";
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #ddb5f8;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#close-flyout {
+    display: none;
+}
+
+header ul li a {
+    color: #999;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header ul.is-sticky li a {
+    color: #000;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: #ddb5f8;
+}
+
+header ul.is-sticky li a:hover,
+header ul.is-sticky li a.active {
+    color: #ddb5f8;
+}
+/* end: header styles */
+
+/* start: hero section styles */
+#hero {
+    background: url('umhlanga4-3.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 530px;
+    width: 100%;
+}
+
+#hero .fade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #777;
+    z-index: 1;
+}
+
+#hero .hero-text {
+    position: absolute;
+    top: 60%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+#hero .hero-text a.no-underline {
+    text-decoration: none;
+    color: #bc65f7;
+}
+
+#hero .hero-text a.no-underline:hover {
+    color: #4d037e;
+}
+
+#hero .hero-text p {
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* end: hero section styles */
+
+
+/* Start of How to buy section */
+#how-to-buy {
+    padding: 3rem 0;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+#how-to-buy h2 {
+    margin-bottom: 3rem;
+}
+
+#how-to-buy .flex > div {
+    width: 30%;
+}
+
+#how-to-buy h4 {
+    color: #000;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+#how-to-buy span.fas {
+    color: #000;
+    font-size: 35px;
+}
+
+#how-to-buy p {
+    font-size: 1.1rem;
+    color: #343e40;
+}
+
+#ahero {
+    background: url('fourPageBg.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/* Start of How to buy section */
+
+/* Start items style section */
+
+#items {
+    margin: 4 rem 0 8rem ;
+    position: relative;
+    overflow: hidden; /* Ensure content stays inside the section */
+}
+
+#items .h2 {
+    margin-bottom: 3rem;
+}
+
+#items .item-slider {
+    
+    width: 60%; /* Adjust this percentage or use a fixed width like 600px */
+    max-width: 800px; /* Optional: Set a max width to limit on larger screens */
+    margin: 0 auto; /* Center the slider horizontally */
+    display: block;
+    overflow: hidden; /* Prevent any overflow issues */
+    margin-bottom: 4rem; /* Push the footer down */
+}
+
+#items .slick {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#items .container {
+    position: relative;
+
+}
+   
+
+#items .container:before {
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    color: #222;
+}
+
+#item-slider a.slick-arrow {
+    color: #000;
+    position: absolute;
+    top: -78px;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+#item-slider a.slick-prev {
+    right: 80px;
+}
+
+#item-slider .slick-slide {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column; /* Ensures the image and text stack vertically */
+    align-items: center;
+    height: auto; /* Let the slide adjust to content */
+}
+
+#item-slider img {
+    width: 100%; /* Ensures no image exceeds its container's width */
+    height: 300px;; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the full image is visible */
+    display: block;
+}
+
+#item-slider .item-details {
+    padding: 1rem;
+    font-size: 0.6rem;
+}
+
+#item-slider .price {
+    font-size: 1.2rem;
+    color: #343a40;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+}
+
+#item-slider .item-details span {
+    font-size: 0.6rem;
+    padding-right: 1px;
+}
+
+#item-slider .item-details span.condition {
+    padding-left: 11px
+}
+
+#item-slider .item-details span.promo {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#item-slider .item-details span.model {
+    padding-right: 0;
+    padding-left: 11px;
+}
+
+#item-slider .item-details span.devices
+#item-slider .item-details span.model{
+    border-right: 1px solid #222;
+}
+
+#item-slider .item-details address {
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+
+#items button.rounded {
+    text-decoration: none;
+    background: #ddb5f8;
+    display: block;
+    margin: 2rem auto 2rem;
+    width: 350px;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-weight: 600;
+}
+/* End items style section */
+
+/* Start of footer style */
+footer {
+    background: #333;
+    padding: 8rem 0;
+    margin-top: 2rem;
+
+}
+
+footer .flex {
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #777;
+    justify-content: space-between;
+}
+
+footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+footer h5.follow-us {
+    margin-top: 1.5rem;
+}
+
+footer .footer-about {
+    width: 38%;
+}
+
+footer .footer-about p {
+    width: 65%;
+}
+
+footer .footer-quick-links {
+    width: 16%;
+}
+
+footer .footer-quick-links ul {
+    font-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-quick-links ul li {
+    margin: 10px 0;
+}
+
+footer .footer-quick-links ul li a {
+    color: #777;
+    text-decoration: none;
+}
+
+footer .footer-quick-links ul li a hover {
+    color: #fff;
+}
+
+footer .footer-follow-us ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer .footer-follow-us ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+footer .footer-follow-us ul li a {
+    text-decoration: none;
+    color: #777;
+}
+
+footer .footer-follow-us ul li a hover {
+    color: #fff;
+}
+
+footer small {
+    margin-top: 3rem;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+/* End of footer style */
+
+/* Start media quiries*/
+
+@media (max-width: 991px) {
+    #logo {
+        top: 1px
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        background: #fff;
+        right: -100%;
+        top: 0;
+        margin: 0;
+        padding: 2rem;
+        height: 100%;
+        width:300px;
+        box-sizing: border-box;
+        box-shadow: 5px 0 10px #999;
+    }
+
+    #close-flyout {
+        position: absolute;
+        right: 2rem;
+        top: 1.5rem;
+        font-size: 30px;
+        color: #777;
+        cursor: pointer;
+        display: block;
+        line-height: 1;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    nav ul li:first-child {
+        margin-top: 50px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        color: #212529;
+
+    }
+
+    nav ul li a.active 
+    nav ul li a:hover {
+        color: #bc65f7
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    #hero .hero-text {
+        width: 400px;
+    }
+
+    #items .container:before {
+        top: 2rem;
+        font-size: 0.85rem;
+    }
+    #items-slider a.slick-arrow {
+        font-size: 0.85rem;
+    }
+
+    footer {
+        padding: 6rem 0;
+    }
+
+    footer .flex {
+        flex-wrap: wrap;
+    }
+
+    footer .flex > div {
+        width: 100%;
+        margin-top: 1rem
+    }
+    footer .footer-about p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    footer h5.follow-us {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero .hero-text {
+        width: 330px;
+    }
+
+
+    #how-to-buy .flex {
+        display: block;
+    }
+
+    #how-to-buy .flex > div {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    
+    footer {
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 400px) {
+  #hero .hero-text {
+     max-width: 275px;
+     width: 100%;
+  }
+  
+  
+  nav ul {
+    width: 200px;
+  }
+}
+
+/* End media quiries*/
