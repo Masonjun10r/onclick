@@ -226,7 +226,7 @@ header ul.is-sticky li a.active {
 /* Start items style section */
 
 #items {
-    margin: 4 rem 0 8rem ;
+    margin: 4rem 0 8rem ;
     position: relative;
     overflow: hidden; /* Ensure content stays inside the section */
 }
@@ -244,8 +244,7 @@ header ul.is-sticky li a.active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping for responsiveness */
-    gap: 1rem; /* Space between slides */
-
+    height: 100vh;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -384,7 +383,7 @@ header ul.is-sticky li a.active {
 
 
 #galaxy-s-series {
-    margin: 4 rem 0 8rem ;
+    margin: 4rem 0 8rem ;
     position: relative;
     overflow: hidden; /* Ensure content stays inside the section */
 }
@@ -402,7 +401,6 @@ header ul.is-sticky li a.active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping for responsiveness */
-    gap: 1rem; /* Space between slides */
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -523,7 +521,7 @@ header ul.is-sticky li a.active {
 /* Start others style section */
 
 #others {
-    margin: 4 rem 0 8rem ;
+    margin: 4rem 0 8rem ;
     position: relative;
     overflow: hidden; /* Ensure content stays inside the section */
 }
@@ -541,7 +539,7 @@ header ul.is-sticky li a.active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping for responsiveness */
-    gap: 1rem; /* Space between slides */
+    heught: 100vh;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
