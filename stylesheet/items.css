@@ -235,17 +235,6 @@ header ul.is-sticky li a.active {
     margin-bottom: 3rem;
 }
 
-#items .item-slider {
-    
-    width: 60%; /* Adjust this percentage or use a fixed width like 600px */
-    display: flex;
-    justify-content: center;
-    max-width: 800px; /* Optional: Set a max width to limit on larger screens */
-    margin: 0 auto; /* Center the slider horizontally */
-    overflow: hidden; /* Prevent any overflow issues */
-    margin-bottom: 4rem; /* Push the footer down */
-}
-
 #items .slick {
     width: 600px;
     margin: 0 auto;
@@ -380,27 +369,9 @@ header ul.is-sticky li a.active {
     margin-bottom: 3rem;
 }
 
-#galaxy-s-series .gs-slider {
-    
-    width: 60%; /* Adjust this percentage or use a fixed width like 600px */
-    display: flex;
-    justify-content: center;
-    max-width: 800px; /* Optional: Set a max width to limit on larger screens */
-    margin: 0 auto; /* Center the slider horizontally */
-    overflow: hidden; /* Prevent any overflow issues */
-    margin-bottom: 4rem; /* Push the footer down */
-}
-
-#galaxy-s-series .slick {
-    width: 600px;
-    margin: 0 auto;
-}
-
 #galaxy-s-series .container {
     position: relative;
-
 }
-   
 
 #galaxy-s-series .container:before {
     position: absolute;
@@ -421,6 +392,11 @@ header ul.is-sticky li a.active {
 
 #gs-slider a.slick-prev {
     right: 80px;
+}
+
+#galaxy-s-series .slick {
+    width: 600px;
+    margin: 0 auto;
 }
 
 #gs-slider .slick-slide {
@@ -518,27 +494,9 @@ header ul.is-sticky li a.active {
     margin-bottom: 3rem;
 }
 
-#others .other-slider {
-    
-    width: 60%; /* Adjust this percentage or use a fixed width like 600px */
-    display: flex;
-    justify-content: center;
-    max-width: 800px; /* Optional: Set a max width to limit on larger screens */
-    margin: 0 auto; /* Center the slider horizontally */
-    overflow: hidden; /* Prevent any overflow issues */
-    margin-bottom: 4rem; /* Push the footer down */
-}
-
-#others .slick {
-    width: 600px;
-    margin: 0 auto;
-}
-
 #others .container {
     position: relative;
-
 }
-   
 
 #others .container:before {
     position: absolute;
@@ -555,6 +513,11 @@ header ul.is-sticky li a.active {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     text-decoration: none;
+}
+
+#others .slick {
+    width: 600px;
+    margin: 0 auto;
 }
 
 #other-slider a.slick-prev {
