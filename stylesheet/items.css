@@ -695,18 +695,18 @@ header ul.is-sticky li a.active {
 
 @media (max-width: px) {
   #item-slider div {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #item-slider img {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #item-slider span {
-        display: flex;
-      justify-content: center
-      align-items: center;
-        font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
     padding-right: 1px;
   }
     #items .item-slider {
@@ -721,18 +721,18 @@ header ul.is-sticky li a.active {
 }
 
     #gs-slider div {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #gs-slider img {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #gs-slider span {
-        display: flex;
-      justify-content: center
-      align-items: center;
-        font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
     padding-right: 1px;
   }
      #galaxy-s-series .gs-slider {
@@ -747,18 +747,18 @@ header ul.is-sticky li a.active {
 }
 
     #other-slider div {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #other-slider img {
-      justify-content: center
+      justify-content: center;
       align-items: center;
   }
     #other-slider span {
     display: flex;
-      justify-content: center
-      align-items: center;
-        font-size: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
     padding-right: 1px;
   }
      #others .other-slider {
