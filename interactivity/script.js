@@ -5,7 +5,7 @@ $(function () {
             let navToggle = $('#nav-toggle');
 
            $('#item-slider').slick({
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
@@ -13,7 +13,7 @@ $(function () {
                     {
                         breakpoint: 1100,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                             infinite: true,
                         }
@@ -74,7 +74,7 @@ $(function () {
 
            $(document).trigger('scroll');
     $('#gs-slider').slick({
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
@@ -82,7 +82,7 @@ $(function () {
                     {
                         breakpoint: 1100,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                             infinite: true,
                         }
@@ -107,7 +107,7 @@ $(function () {
            });
 
     $('#other-slider').slick({
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
@@ -115,7 +115,7 @@ $(function () {
                     {
                         breakpoint: 1100,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                             infinite: true,
                         }
