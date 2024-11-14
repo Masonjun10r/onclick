@@ -135,7 +135,7 @@ header ul.is-sticky li a.active {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /* Absolute makes it leave flow */
-    height: 670px;
+    min-height: 670px;
     width: 100%;
     z-index: 1;
 }
@@ -244,15 +244,6 @@ header ul.is-sticky li a.active {
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
-
-/* Center the images inside each item */
-#item-slider img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    object-fit: cover;
-}
-
 
 #items .slick {
     width: 600px;
@@ -754,72 +745,4 @@ header ul.is-sticky li a.active {
   nav ul {
     width: 200px;
   }
-    #item-slider {
-    display: flex;
-    justify-content: center; /* Center slider items horizontally */
-    align-items: center; 
-    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
-
-#item-slider div {
-    border-radius: 8px;
-    padding: 1rem;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center content within each item */
-}
-    #item-slider img {
-    width: 90%;
-    height: auto;
-    margin-bottom: 1rem;
-    object-fit: cover;
-}
-
-#other-slider {
-    display: flex;
-    justify-content: center; /* Center slider items horizontally */
-    align-items: center; 
-    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-}
-
-#other-slider div {
-    border-radius: 8px;
-    padding: 1rem;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Center the images inside each item */
-#other-slider img {
-    width: 90%;
-    height: auto;
-    margin-bottom: 1rem;
-    object-fit: cover;
-}
-
-#gs-slider {
-    display: flex;
-    justify-content: center; /* Center slider items horizontally */
-    align-items: center; 
-    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    height: 100vh;
-    width: 100%;
-}
-
-#gs-slider div {
-    border-radius: 8px;
-    padding: 1rem;
-    width: 100%; /* Fixed width for items */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center content within each item */
-}
-
-/* Center the images inside each item */
-#gs-slider img {
-    width: 90%;
-    height: auto;
-    margin-bottom: 1rem;
-    object-fit: cover;
-}
-}
-
