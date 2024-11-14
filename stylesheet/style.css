@@ -226,13 +226,13 @@ header ul.is-sticky li a.active {
     width: 60%; /* Adjust this percentage or use a fixed width like 600px */
     max-width: 800px; /* Optional: Set a max width to limit on larger screens */
     margin: 0 auto; /* Center the slider horizontally */
-    display: flex;
-    justify-content: center; /* Horizontally centers slides */
-    align-items: center; /* Vertically centers slides */
-    flex-wrap: wrap; /* Ensures slides wrap if space is limited */
-    height: 100vh; /* Optional: adjusts to full viewport height */
+    display: block;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
+    position: absolute; /* Or keep it as is */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers horizontally and vertically */
 }
 
 #items .slick {
@@ -564,7 +564,6 @@ footer small {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    height: 100vh;
 }
 
 #item-slider div {
