@@ -453,18 +453,6 @@ header ul.is-sticky li a.active {
     border-right: 1px solid #222;
 }
 
-#galaxy-s-series button.order {
-    text-decoration: none;
-    background: #ddb5f8;
-    display: block;
-    margin: 2rem auto 0;
-    width: 70px;
-    padding: 1rem;
-    border: none;
-    border-radius: 1.2rem;
-    font-weight: 150;
-}
-
 #galaxy-s-series button.rounded {
     text-decoration: none;
     background: #ddb5f8;
@@ -721,6 +709,16 @@ header ul.is-sticky li a.active {
         font-size: 0.6rem;
     padding-right: 1px;
   }
+    #items .item-slider {
+    
+    width: 100%; /* Adjust this percentage or use a fixed width like 600px */
+    margin: 0 auto; /* Center the slider horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent any overflow issues */
+    margin-bottom: 4rem; /* Push the footer down */
+}
 
     #gs-slider div {
       justify-content: center
@@ -737,6 +735,16 @@ header ul.is-sticky li a.active {
         font-size: 0.6rem;
     padding-right: 1px;
   }
+     #galaxy-s-series .gs-slider {
+    
+    width: 100%; /* Adjust this percentage or use a fixed width like 600px */
+    margin: 0 auto; /* Center the slider horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent any overflow issues */
+    margin-bottom: 4rem; /* Push the footer down */
+}
 
     #other-slider div {
       justify-content: center
@@ -753,6 +761,16 @@ header ul.is-sticky li a.active {
         font-size: 0.6rem;
     padding-right: 1px;
   }
+     #others .other-slider {
+    
+    width: 100%; /* Adjust this percentage or use a fixed width like 600px */
+    margin: 0 auto; /* Center the slider horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent any overflow issues */
+    margin-bottom: 4rem; /* Push the footer down */
+}
   
   
   nav ul {
