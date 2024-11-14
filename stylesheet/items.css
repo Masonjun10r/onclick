@@ -240,10 +240,7 @@ header ul.is-sticky li a.active {
     width: 60%; /* Adjust this percentage or use a fixed width like 600px */
     max-width: 800px; /* Optional: Set a max width to limit on larger screens */
     margin: 0 auto; /* Center the slider horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Ensures wrapping for responsiveness */
+    display: block;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -396,10 +393,7 @@ header ul.is-sticky li a.active {
     width: 60%; /* Adjust this percentage or use a fixed width like 600px */
     max-width: 800px; /* Optional: Set a max width to limit on larger screens */
     margin: 0 auto; /* Center the slider horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Ensures wrapping for responsiveness */
+    display: block;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -534,10 +528,7 @@ header ul.is-sticky li a.active {
     width: 60%; /* Adjust this percentage or use a fixed width like 600px */
     max-width: 800px; /* Optional: Set a max width to limit on larger screens */
     margin: 0 auto; /* Center the slider horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Ensures wrapping for responsiveness */
+    display: block;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -766,34 +757,41 @@ header ul.is-sticky li a.active {
     #item-slider {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
+    align-items: center; 
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 #item-slider div {
     border-radius: 8px;
     padding: 1rem;
-    width: 300px; /* Fixed width for items */
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center content within each item */
+}
+    #item-slider img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 1rem;
+    object-fit: cover;
 }
 
 #other-slider {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
+    align-items: center; 
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 #other-slider div {
     border-radius: 8px;
     padding: 1rem;
-    width: 300px; /* Fixed width for items */
-    max-width: 90%; /* Keep items responsive */
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Center the images inside each item */
 #other-slider img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 1rem;
     object-fit: cover;
@@ -802,22 +800,23 @@ header ul.is-sticky li a.active {
 #gs-slider {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
+    align-items: center; 
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
     height: 100vh;
+    width: 100%;
 }
 
 #gs-slider div {
     border-radius: 8px;
     padding: 1rem;
-    width: 300px; /* Fixed width for items */
-    max-width: 90%; /* Keep items responsive */
+    width: 100%; /* Fixed width for items */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center content within each item */
 }
 
 /* Center the images inside each item */
 #gs-slider img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 1rem;
     object-fit: cover;
