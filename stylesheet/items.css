@@ -747,6 +747,7 @@ header ul.is-sticky li a.active {
     #items .item-slider {
         width: 100%;
         margin-bottom: 2rem;
+        margin-left: 0;
     }
 
     #item-slider img {
@@ -755,6 +756,7 @@ header ul.is-sticky li a.active {
 
     #item-slider .item-details {
         font-size: 0.6rem; /* Smaller details font */
+        margin-left: 0;
     }
 
     #galaxy-s-series {
@@ -764,14 +766,17 @@ header ul.is-sticky li a.active {
     #galaxy-s-series .gs-slider {
         width: 100%;
         margin-bottom: 2rem;
+        margin-left: 0;
     }
 
     #gs-slider img {
         height: 180px; /* Even smaller image height */
+        margin-left: 0;
     }
 
     #gs-slider .gs-details {
         font-size: 0.6rem; /* Smaller details font */
+        margin-left: 0;
     }
 
     #others {
@@ -781,14 +786,17 @@ header ul.is-sticky li a.active {
     #others .other-slider {
         width: 100%;
         margin-bottom: 2rem;
+        margin-left: 0;
     }
 
     #other-slider img {
         height: 180px; /* Even smaller image height */
+        margin-left: 0;
     }
 
     #other-slider .other-details {
         font-size: 0.6rem; /* Smaller details font */
+        margin-left: 0;
     }
   
   
