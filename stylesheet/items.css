@@ -718,6 +718,8 @@ header ul.is-sticky li a.active {
         display: flex;
       justify-content: center
       align-items: center;
+        font-size: 0.6rem;
+    padding-right: 1px;
   }
 
     #gs-slider div {
@@ -732,6 +734,8 @@ header ul.is-sticky li a.active {
         display: flex;
       justify-content: center
       align-items: center;
+        font-size: 0.6rem;
+    padding-right: 1px;
   }
 
     #other-slider div {
@@ -746,6 +750,8 @@ header ul.is-sticky li a.active {
     display: flex;
       justify-content: center
       align-items: center;
+        font-size: 0.6rem;
+    padding-right: 1px;
   }
   
   
