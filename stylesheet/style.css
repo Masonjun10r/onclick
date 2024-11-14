@@ -229,10 +229,6 @@ header ul.is-sticky li a.active {
     display: block;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
-    position: absolute; /* Or keep it as is */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centers horizontally and vertically */
 }
 
 #items .slick {
