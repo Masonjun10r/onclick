@@ -7,6 +7,8 @@ $(function () {
            $('#item-slider').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
                 responsive: [
@@ -76,6 +78,8 @@ $(function () {
     $('#gs-slider').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
+                autoplay: true,
+              autoplaySpeed: 2000,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
                 responsive: [
@@ -109,6 +113,8 @@ $(function () {
     $('#other-slider').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
                 responsive: [
