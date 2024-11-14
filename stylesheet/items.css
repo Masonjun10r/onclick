@@ -434,18 +434,12 @@ header ul.is-sticky li a.active {
     padding-right: 1px;
 }
 
-#gs-slider .gs-details span.condition {
-    padding-left: 11px
-}
-
 #gs-slider .gs-details span.promo {
     padding-right: 0;
-    padding-left: 10px;
 }
 
 #gs-slider .gs-details span.model {
     padding-right: 0;
-    padding-left: 11px;
 }
 
 #gs-slider .gs-details span.devices
@@ -543,22 +537,16 @@ header ul.is-sticky li a.active {
 }
 
 #other-slider .other-details span {
-    font-size: 0.6rem;
+    font-size: 1rem;
     padding-right: 1px;
-}
-
-#other-slider .other-details span.condition {
-    padding-left: 11px
 }
 
 #other-slider .other-details span.promo {
     padding-right: 0;
-    padding-left: 10px;
 }
 
 #other-slider .other-details span.model {
     padding-right: 0;
-    padding-left: 11px;
 }
 
 #other-slider .other-details span.devices
@@ -702,13 +690,16 @@ header ul.is-sticky li a.active {
       justify-content: center;
       align-items: center;
   }
-    #item-slider span {
+    .item-details span {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.6rem;
     padding-right: 1px;
   }
+    .item-details span {
+    font-size: 0.6rem;
+    margin-right: 5px; /* Use margin for spacing between spans */
+}
     #items .item-slider {
     
     width: 100%; /* Adjust this percentage or use a fixed width like 600px */
@@ -728,13 +719,16 @@ header ul.is-sticky li a.active {
       justify-content: center;
       align-items: center;
   }
-    #gs-slider span {
+    .gs-details span {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.6rem;
     padding-right: 1px;
   }
+    .gs-details span {
+    font-size: 0.6rem;
+    margin-right: 5px; /* Use margin for spacing between spans */
+}
      #galaxy-s-series .gs-slider {
     
     width: 100%; /* Adjust this percentage or use a fixed width like 600px */
@@ -754,13 +748,16 @@ header ul.is-sticky li a.active {
       justify-content: center;
       align-items: center;
   }
-    #other-slider span {
+    .other-details span {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.6rem;
     padding-right: 1px;
   }
+    .other-details span {
+    font-size: 0.6rem;
+    margin-right: 5px;
+}
      #others .other-slider {
     
     width: 100%; /* Adjust this percentage or use a fixed width like 600px */
