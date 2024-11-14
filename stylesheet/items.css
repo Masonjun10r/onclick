@@ -135,7 +135,7 @@ header ul.is-sticky li a.active {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /* Absolute makes it leave flow */
-    min-height: 670px;
+    min-height: 700px;
     width: 100%;
     z-index: 1;
 }
@@ -736,71 +736,44 @@ header ul.is-sticky li a.active {
 }
 
 @media (max-width: 400px) {
-  #hero .hero-text {
-     max-width: 275px;
-     width: 100%;
+  #item-slider div {
+      justify-content: center
+      align-items: center;
   }
-    #items {
-        margin: 2rem 0 4rem;
-    }
-
-    #items .item-slider {
-        width: 100%;
-        margin-bottom: 2rem;
-        justify-content: center;
-    }
-
     #item-slider img {
-        height: 180px; /* Even smaller image height */
-    }
+      justify-content: center
+      align-items: center;
+  }
+    #item-slider span {
+      justify-content: center
+      align-items: center;
+  }
 
-    #item-slider .item-details {
-        font-size: 0.6rem; /* Smaller details font */
-        margin-left: 0;
-        justify-content: center;
-    }
-
-    #galaxy-s-series {
-        margin: 2rem 0 4rem;
-    }
-
-    #galaxy-s-series .gs-slider {
-        width: 100%;
-        margin-bottom: 2rem;
-        justify-content: center;
-    }
-
+    #gs-slider div {
+      justify-content: center
+      align-items: center;
+  }
     #gs-slider img {
-        height: 180px; /* Even smaller image height */
-        justify-content: center;
-    }
+      justify-content: center
+      align-items: center;
+  }
+    #gs-slider span {
+      justify-content: center
+      align-items: center;
+  }
 
-    #gs-slider .gs-details {
-        font-size: 0.6rem; /* Smaller details font */
-        margin-left: 0;
-        justify-content: center;
-    }
-
-    #others {
-        margin: 2rem 0 4rem;
-    }
-
-    #others .other-slider {
-        width: 100%;
-        margin-bottom: 2rem;
-        justify-content: center;
-    }
-
+    #other-slider div {
+      justify-content: center
+      align-items: center;
+  }
     #other-slider img {
-        height: 180px; /* Even smaller image height */
-        justify-content: center;
-    }
-
-    #other-slider .other-details {
-        font-size: 0.6rem; /* Smaller details font */
-        margin-left: 0;
-        justify-content: center;
-    }
+      justify-content: center
+      align-items: center;
+  }
+    #other-slider span {
+      justify-content: center
+      align-items: center;
+  }
   
   
   nav ul {
