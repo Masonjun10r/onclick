@@ -244,7 +244,6 @@ header ul.is-sticky li a.active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping for responsiveness */
-    height: 100vh;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -539,7 +538,6 @@ header ul.is-sticky li a.active {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping for responsiveness */
-    heught: 100vh;
     overflow: hidden; /* Prevent any overflow issues */
     margin-bottom: 4rem; /* Push the footer down */
 }
@@ -769,14 +767,12 @@ header ul.is-sticky li a.active {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    height: 100vh;
 }
 
 #item-slider div {
     border-radius: 8px;
     padding: 1rem;
     width: 300px; /* Fixed width for items */
-    max-width: 90%; /* Keep items responsive */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center content within each item */
 }
@@ -785,7 +781,6 @@ header ul.is-sticky li a.active {
     display: flex;
     justify-content: center; /* Center slider items horizontally */
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    gap: 1rem; /* Space between items */
 }
 
 #other-slider div {
@@ -794,7 +789,6 @@ header ul.is-sticky li a.active {
     width: 300px; /* Fixed width for items */
     max-width: 90%; /* Keep items responsive */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100vh; /* Center content within each item */
 }
 
 /* Center the images inside each item */
