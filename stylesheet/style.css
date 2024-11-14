@@ -221,16 +221,6 @@ header ul.is-sticky li a.active {
     margin-bottom: 3rem;
 }
 
-#items .item-slider {
-    
-    width: 60%; /* Adjust this percentage or use a fixed width like 600px */
-    max-width: 800px; /* Optional: Set a max width to limit on larger screens */
-    margin: 0 auto; /* Center the slider horizontally */
-    display: block;
-    overflow: hidden; /* Prevent any overflow issues */
-    margin-bottom: 4rem; /* Push the footer down */
-}
-
 #items .slick {
     width: 600px;
     margin: 0 auto;
