@@ -740,6 +740,56 @@ header ul.is-sticky li a.active {
      max-width: 275px;
      width: 100%;
   }
+    #items {
+        margin: 2rem 0 4rem;
+    }
+
+    #items .item-slider {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #item-slider img {
+        height: 180px; /* Even smaller image height */
+    }
+
+    #item-slider .item-details {
+        font-size: 0.6rem; /* Smaller details font */
+    }
+
+    #galaxy-s-series {
+        margin: 2rem 0 4rem;
+    }
+
+    #galaxy-s-series .gs-slider {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #gs-slider img {
+        height: 180px; /* Even smaller image height */
+    }
+
+    #gs-slider .gs-details {
+        font-size: 0.6rem; /* Smaller details font */
+    }
+
+    #others {
+        margin: 2rem 0 4rem;
+    }
+
+    #others .other-slider {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #other-slider img {
+        height: 180px; /* Even smaller image height */
+    }
+
+    #other-slider .other-details {
+        font-size: 0.6rem; /* Smaller details font */
+    }
   
   
   nav ul {
